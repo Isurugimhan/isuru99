@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Business card of Isuru Gimhan, Graphic Designer at Controla.">
+    <meta name="keywords" content="Isuru Gimhan, Graphic Designer, Controla, Business Card">
+    <title>Business Card</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .business-card {
+            width: 100%;
+            max-width: 350px;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            font-size: 16px;
+            color: #333;
+            position: relative;
+        }
+        .profile-section {
+            height: 350px;
+            background-image: url('images/dp.jpg');
+            background-size: cover;
+            background-position: center;
+            background-color: #ddd; /* Fallback color */
+            position: relative;
+        }
+        .curved-line {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+        }
+        .curved-line svg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .info-section {
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 0 0 15px 15px;
+            text-align: left;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 22px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .title {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .company {
+            font-style: italic;
+            color: #888;
+            margin-bottom: 15px;
+        }
+        .contact {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact:hover {
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .contact-icon img {
+            width: 40px;
+            height: 40px;
+        }
+        .contact-text {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.4;
+        }
+        .contact-text span {
+            display: block;
+            font-size: 12px;
+            color: #999;
+        }
+        .contact a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        @media (max-width: 400px) {
+            .business-card {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="business-card">
+        <div class="profile-section">
+            <div class="curved-line">
+                <svg preserveAspectRatio="xMinYMax meet" viewBox="0 0 246 57" xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd" d="M 214.7168,6.1113281 C 195.65271,5.9023124 172.37742,11.948182 137.87305,32.529297 110.16613,49.05604 86.980345,56.862784 65.015625,57 H 65 v 1 H 246 V 11.453125 C 236.0775,8.6129313 226.15525,6.2367376 214.7168,6.1113281 Z" fill="white" fill-rule="evenodd"></path>
+                    <path clip-rule="evenodd" d="M 0,35.773438 V 58 H 65 L 64.97852,57 C 43.192081,57.127508 22.605139,49.707997 0,35.773438 Z " fill="white" fill-rule="evenodd"></path>
+                    <path clip-rule="evenodd" d="m 0,16.7221 v 19.052 C 45.4067,63.7643 82.6667,65.4583 137.873,32.5286 193.08,-0.401184 219.54,3.87965 246,11.4535 V 6.51403 C 185.24,-16.8661 135.913,29.331 97.6933,40.8564 59.4733,52.3818 33.6467,44.1494 0,16.7221 Z " fill="#4A4A4A" fill-rule="evenodd"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="name">Isuru Gimhan</div>
+            <div class="title">Graphic Designer</div>
+            <div class="company">Controla</div>
+            <div class="contact">
+                <a href="mailto:contact.gimhan417@gmail.com" aria-label="Send an email to Isuru Gimhan">
+                    <div class="contact-icon"><img src="images/message.png" alt="Email icon"></div>
+                    <div class="contact-text">contact.gimhan417@gmail.com<br><span>work</span></div>
+                </a>
+            </div>
+            <div class="contact">
+                <a href="tel:+94720644815" aria-label="Call Isuru Gimhan">
+                    <div class="contact-icon"><img src="images/smartphone.png" alt="Phone icon"></div>
+                    <div class="contact-text">+94 72 064 4815<br><span>mobile</span></div>
+                </a>
+            </div>
+            <div class="contact">
+                <a href="#" aria-label="Visit Isuru Gimhan's website">
+                    <div class="contact-icon"><img src="images/www.png" alt="Web icon"></div>
+                    <div class="contact-text">Web<br><span>work</span></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
